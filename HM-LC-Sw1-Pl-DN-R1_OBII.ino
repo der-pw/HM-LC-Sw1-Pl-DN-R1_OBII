@@ -88,7 +88,6 @@ void setup () {
   initModelType();
   initPeerings(first);
   sdev.initDone();
-  //sdev.led().invert(true);  // inverts the LED signal, otherwise the blue LED lights up permanently and flashes only by status requests
 }
 
 void loop() {
